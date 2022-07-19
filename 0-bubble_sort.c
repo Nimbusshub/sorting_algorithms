@@ -20,38 +20,37 @@ void swap(int *x, int *y)
 /**
  * bubble_sort - sorts the algo by moving the largest number in the array
  * to the end of the array
- * 
- * @array: the array to sort 
+ * @array: the array to sort
  * @size: size of the array
- * Return: return void 
+ * Return: return void
  */
 
 void bubble_sort(int *array, size_t size)
 {
-    size_t i, j;
-    int flag;
+	size_t i, j;
+	int flag;
 
-    if (size < 2)
-    {
-        return;
-    }
-    
-    for (i = 0; i < size; i++)
-    {
-        flag = 0;
-        for (j = 0; j < size - 1; j++)
-        {
-            if (array[j] > array[j + 1])
-            {
-                swap(&array[j], &array[j + 1]);
-                print_array(array, size);
-                flag = 1;
-            }
-        }
-        
-        if (flag == 0)
-        {
-            break;
-        }
-    }
+	if (size < 2)
+	{
+		return;
+	}
+
+	for (i = 0; i < size; i++)
+	{
+		flag = 0;
+		for (j = 0; j < size - 1; j++)
+		{
+			if (array[j] > array[j + 1])
+			{
+				swap(&array[j], &array[j + 1]);
+				print_array(array, size);
+				flag = 1;
+			}
+		}
+
+		if (flag == 0)
+		{
+			break;
+		}
+	}
 }
