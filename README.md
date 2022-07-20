@@ -89,4 +89,11 @@ Here is a quick tip to help you test your sorting algorithms with big sets of ra
 #### Selection sorts
 * Function that sorts an array of integers in ascending order using the [Selection sort](https://en.m.wikipedia.org/wiki/Selection_sort) algorithm
 	* Prototype: ```void selection_sort(int *array, size_t size);```
-	* Youre expected to print the array after each time you swap two elements  
+	* Youre expected to print the array after each time you swap two elements
+#### Quick sorts
+* Function that sorts an array of integers in ascending order using the [Quick sort](https://en.m.wikipedia.org/wiki/Quicksort) algorithm
+	* Prototype: ```void quick_sort(int *array, size_t size);```
+	* You must implement the ```Lomuto``` partition scheme.
+	* The pivot should always be the last element of the partition being sorted
+	* Youre expected to print the array after each time you swap two elements
+ 
