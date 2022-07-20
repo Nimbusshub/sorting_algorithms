@@ -56,4 +56,7 @@ void print_list(const listint_t *list)
     printf("\n");
 }
 ```
+---
+##### We use the following data structure for Doubly linked list
+```
 
