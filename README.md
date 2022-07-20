@@ -86,4 +86,7 @@ Here is a quick tip to help you test your sorting algorithms with big sets of ra
 	* Prototype: ```void insertion_sort_list(listint_t **list);``` 
 	* You are not allowed to modify the integer n of a node. You have to swap the nodes themselves.
 	* Youre expected to print the list after each time you swap two elements
- 
+#### Selection sorts
+* Function that sorts an array of integers in ascending order using the [Selection sort](https://en.m.wikipedia.org/wiki/Selection_sort) algorithm
+	* Prototype: ```void selection_sort(int *array, size_t size);```
+	* Youre expected to print the array after each time you swap two elements  
