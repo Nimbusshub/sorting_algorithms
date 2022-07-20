@@ -81,4 +81,9 @@ Here is a quick tip to help you test your sorting algorithms with big sets of ra
 * Function that sorts an array of integers in ascending order using the Bubble sort algorithm
 	* Prototype: void bubble_sort(int *array, size_t size);
 	* Youre expected to print the array after each time you swap two elements
+#### Insertion sorts
+* Function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm
+	* Prototype: ```void insertion_sort_list(listint_t **list);``` 
+	* You are not allowed to modify the integer n of a node. You have to swap the nodes themselves.
+	* Youre expected to print the list after each time you swap two elements
  
