@@ -73,6 +73,12 @@ typedef struct listint_s
     struct listint_s *next;
 } listint_t;
 ```
-###### Test.
+##### Test.
 Here is a quick tip to help you test your sorting algorithms with big sets of random integers: [Random](https://www.random.org/integer-sets/)
 
+#Tasks.
+####Bubble sorts.
+*Function that sorts an array of integers in ascending order using the Bubble sort algorithm
+	*Prototype: void bubble_sort(int *array, size_t size);
+	*Youre expected to print the array after each time you swap two elements
+ 
