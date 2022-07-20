@@ -78,7 +78,7 @@ Here is a quick tip to help you test your sorting algorithms with big sets of ra
 
 #Tasks.
 ####Bubble sorts.
-*Function that sorts an array of integers in ascending order using the Bubble sort algorithm
-	*Prototype: void bubble_sort(int *array, size_t size);
-	*Youre expected to print the array after each time you swap two elements
+* Function that sorts an array of integers in ascending order using the Bubble sort algorithm
+	* Prototype: void bubble_sort(int *array, size_t size);
+	* Youre expected to print the array after each time you swap two elements
  
