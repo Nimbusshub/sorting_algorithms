@@ -2,4 +2,6 @@
 
 ### __ By Shukrah and Ni'mah Ogunbanjo
 ##### A project done by a group of two students. 
+---
+### Data Structure and Functions
 
